@@ -5,8 +5,9 @@
 1. adicionar_item(nome, preco, quantidade=1) adiciona um item. Se o nome já existir, soma a quantidade.
 2. remover_item(nome) remove o item. Se não existir, lança ValueError.
 3. show mostrando a lista de todos os itens no carrinho.
-4. Frete de R$ 20,00, grátis se o total for maior ou igual a R$ 150,00.
-5. total() retorna total, arredondado a 2 casas. Carrinho vazio retorna 0.00.
+4. Aplicar desconto de 10% para subtotal a partir de R$ 200,00 e de 15% para subtotal a partir de R$ 500,00.
+5. Cobrar frete de R$ 20,00 se o valor após desconto for inferior a R$ 150,00; caso contrário, o frete é grátis.
+6. total() retorna o valor após desconto e frete, arredondado a 2 casas. Carrinho vazio retorna 0.00.
    
 # Critérios de conclusão (6)
 
